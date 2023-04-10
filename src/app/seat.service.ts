@@ -12,7 +12,7 @@ export interface Seat {
   providedIn: 'root'
 })
 export class SeatService {
-  private apiUrl = 'http://localhost:3000/seats';
+  private apiUrl = 'https://unstop-server-api.azurewebsites.net/seats';
 
   constructor(private http: HttpClient) {}
 

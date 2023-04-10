@@ -10,13 +10,14 @@ interface Seat {
   reserved: boolean;
 }
 
+
 @Component({
   selector: 'app-seat-booking',
   template: `
   
     <h2>Seat Booking App</h2>
     <p>Select number of seats to book:</p>
-    <p>Enter the Number of seat to be booked </p>
+    <p>Enter the Number of seat to be booked</p>
     
     <div class="form-group row">
     <div class="col-md-6 mx-auto">
