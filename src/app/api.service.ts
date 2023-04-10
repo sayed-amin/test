@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class ApiService {
-  private apiUrl = 'http://localhost:3000/seats';
+  private apiUrl = 'https://unstop-server-api.azurewebsites.net/seats';
   constructor(private http: HttpClient) {}
   getData(): Observable<Map<number, boolean>> {
     return this.http.get<any[]>(this.apiUrl).pipe(
